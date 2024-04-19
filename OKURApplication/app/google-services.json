@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "844548795170",
+    "project_id": "okur-application-2db41",
+    "storage_bucket": "okur-application-2db41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844548795170:android:ae11bd7f9c47130e14537b",
+        "android_client_info": {
+          "package_name": "com.okurapp.okurapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhwbQrpf4gu9r1n3dljB7Q6XuAD3ClRxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

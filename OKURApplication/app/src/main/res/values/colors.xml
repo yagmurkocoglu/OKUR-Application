@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="topBar">#56A74A</color>
+    <color name="backGround">#F3FF91</color>
+    <color name="editTextColor">#F7F6F8</color>
+    <color name="buttonColor">#7BDF6B</color>
+
+
+    <color name="dark_green">#56A64A</color>
+    <color name="ligth_green">#FF7BDF6B</color>
+    <color name="background_yellow">#FFF1FD8F</color>
+    <color name="under_line">#D8D6D6</color>
+
+
+    <color name="purple_500">#7BDF6B</color>
+
+    <color name="purple_200">#7BDF6B</color>
+</resources>

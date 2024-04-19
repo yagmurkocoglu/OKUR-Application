@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2FE90"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/menuBtn"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#7BDE6B"
+        android:contentDescription="@string/menuBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+
+    <ImageView
+        android:id="@+id/okurImage"
+        android:layout_width="258dp"
+        android:layout_height="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/okurlogo" />
+
+    <ImageButton
+        android:id="@+id/accountImage"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#323232"
+        android:backgroundTint="@color/background_yellow"
+        android:contentDescription="@string/profilBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_account_circle_24" />
+
+    <TextView
+        android:id="@+id/searchText"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="36dp"
+        android:gravity="center"
+        android:hint="@string/search_text"
+        android:text="TextView"
+        android:maxLength="25"
+        android:maxLines="1"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/okurImage" />
+
+    <ImageButton
+        android:id="@+id/backBtn"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="64dp"
+        android:backgroundTint="@color/background_yellow"
+        android:contentDescription="@string/backBtn"
+        app:layout_constraintEnd_toStartOf="@+id/searchText"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menuBtn"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        tools:listitem="@layout/book"
+        android:layout_marginTop="125dp"
+        tools:itemCount="9"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
